@@ -1,23 +1,7 @@
-h1{
-  color: orange;
-  background-color: slategray;
-  font-size: 20px;
-  text-decoration: underline;
-  font-family: Arial;
-  /*web-safe fontを使うとよいらしい*/
-  text-align: center;
+p.error{
+  color: red;
 }
-p{
-  color: gray;
-  text-align: right;
-  line-height: 30px;
-  letter-spacing: 3px;
-  column-count: 3;
-  column-gap: 60px;
+.success{
+  color:green;
 }
-ul{
-  border: 4px dotted crimson;
-}
-li{
-  list-style-type: none;
-}
+p.success.feedback
